@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    /* background-image: url('src\\Train Booking.jpg'); */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffa200;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    margin-right: 20px;
+    /* transition: color 0.3s; */
+}
+
+.navbar a:hover {
+    font-size: larger;
+    color: #000000;
+    transition: ease-in-out;
+}
+
+/* Header styles */
+.header {
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+}
+.main-body{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 0px 62px 0px;
+}
+h3{
+    text-align: left;
+    padding: 10px
+}
+/* Input field styles */
+.input-container {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.input-container input[type="text"] {
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 300px;
+}
+.input-container button{
+    background: white;
+    border-radius: 50px;
+    aspect-ratio: 1;
+    height: 80%;
+    
+    position: absolute;
+    top: 29px;
+    right: -70px;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+/* Notice and alerts section */
+.notice {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0px 82px 280px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+.footer {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffa200;
+    color: #000000;
+}
