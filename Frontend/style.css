@@ -106,3 +106,13 @@ input[type=submit]:hover {
     margin-top: 20px;
     margin-left: 20px;
 }
+.form{
+    display: flex;
+    justify-content: space-evenly;
+}
+#map{
+    height: 400px;
+    width: 600px ;
+    top: 23px;
+    margin-bottom: 150px;
+}
