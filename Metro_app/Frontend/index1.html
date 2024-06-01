@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width", initial-scale="1.0">
 
-    <link rel="stylesheet" href="{% src 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 
     <title>METRO WEBSITE</title>
     <body>
        <div class="hero">
         <video muted loop autoplay plays-inline class="back-vdo">
-            <source src="{% src 'assets/metro1.mp4' %}" type="video/mp4">
+            <source src="{% static 'assets/metro1.mp4' %}" type="video/mp4">
         </video>
         <nav>
-            <img src="{% src 'assets/logo3.jpg' %}" class="logo" alt="BMRC Logo" width="100" height="90px">
+            <img src="{% static 'assets/logo3.jpg' %}" class="logo" alt="BMRC Logo" width="100" height="90px">
             <ul>
             <li ><a href="#"><b>HOME</b></a></li>
             <li ><a href="#"><b>ABOUT</b></a></li>
@@ -35,13 +35,14 @@
         <p>click here to plan through <a href="#">interactive map</a></p>
         <br>
         <form action="/action_page.php">
-             <label	for="src">FROM</label>
+             <label	for="s">FROM</label>
              <select name="from" id="from">
                 <option value="line 1">click to select</option>
                 <option value="line 1">line 1</option>
                 <option value="line 2">line 2</option>
                 <option value="line 3">line 3</option>
                 <option value="line 4">line 4</option>
+
               </select>
              <label for="dest">TO</label>
              <select name="from" id="from">
